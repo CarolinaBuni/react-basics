@@ -1,0 +1,38 @@
+.film-card {
+     width: 400px;
+     text-align: center;
+     border-radius: 10px;
+     overflow: hidden;
+     transition: transform 0.3s;
+     text-decoration: none;
+     color: var(--text-color);
+}
+
+.film-card img {
+     width: 100%;
+     height: auto;
+}
+
+.details-container {
+     background-color: var(--secondary-color);
+     padding: 10px;
+     border-radius: 0 0 10px 10px;
+}
+
+strong {
+     color: var(--primary-color);
+}
+
+.film-card h3 {
+     margin-top: 10px;
+     color: var(--accent-color);
+}
+
+.film-card p {
+     font-size: 14px;
+     margin: 5px 0;
+}
+
+.film-card:hover {
+     transform: scale(1.05);
+}

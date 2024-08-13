@@ -1,0 +1,12 @@
+#films {
+  padding: 20px;
+  color: var(--text-color);
+}
+
+.film-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+

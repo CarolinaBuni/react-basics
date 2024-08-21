@@ -43,3 +43,19 @@
 .film-content>p:last-of-type {
      width: 50%;
 }
+
+@media (max-width: 320px) {
+     .film-image {
+          width: 250px;
+     }
+}
+
+@media screen and (min-width: 321px) and (max-width: 450px) {
+     .film-image {
+          width: 300px;
+     }
+
+     .film-content > p:last-of-type {
+          width: auto;
+     }
+}
